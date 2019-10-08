@@ -1,0 +1,24 @@
+{
+  "name": "d47k.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D47K/D47K.github.io.git"
+  },
+  "keywords": [],
+  "author": "Andres Hilario Vidal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D47K/D47K.github.io/issues"
+  },
+  "homepage": "https://github.com/D47K/D47K.github.io#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
