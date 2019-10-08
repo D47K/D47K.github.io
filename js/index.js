@@ -7,4 +7,4 @@ var Nav = function Nav() {
   );
 };
 
-ReacrDOM.render(React.createElement(Nav, null), document.getElementById("root"));
+ReactDOM.render(React.createElement(Nav, null), document.getElementById("root"));
