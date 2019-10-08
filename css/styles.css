@@ -1,0 +1,18 @@
+.img-profile {
+  height: 200px;
+  width: 200px;
+}
+
+.link {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-bottom: 8px;
+}
+
+.link-fb {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
