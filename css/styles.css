@@ -18,6 +18,15 @@
 
 .header-profile {
   height: 400px;
+  background-image: url("../media/img/997125.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.capa-header {
+  background-color: rgba(59, 59, 59, 0.349);
 }
 
 .person-image {
@@ -43,11 +52,37 @@
 }
 
 .shadow-box {
-  -webkit-box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.4);
 }
 
 .logos-social {
   z-index: 4;
+}
+
+.bio-container {
+  height: 350px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.bio-container .bio-text {
+  padding-top: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../media/img/997125.png");
+  /* Set a specific height */
+  min-height: 200px;
+  position: absolute;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
