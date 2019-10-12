@@ -85,17 +85,16 @@ var Header = function Header() {
     )
   );
 };
-
 var Bio = function Bio() {
   return React.createElement(
     "div",
-    { className: "row bio-container" },
+    { className: "row bio-container " },
     React.createElement(
       "div",
-      { className: "col" },
+      { className: "col p-0" },
       React.createElement(
         "div",
-        { className: "row p-3 mt-3 d-flex justify-content-center" },
+        { className: "row d-flex justify-content-center m-0" },
         React.createElement(
           "p",
           { className: "bio-text" },
@@ -106,19 +105,34 @@ var Bio = function Bio() {
             null,
             "Full Stack Semi Senior"
           ),
-          " Web, aplicaciones moviles y aplicaciones de escritorio."
+          " Web, aplicaciones m\xF3viles y aplicaciones de escritorio."
         )
       )
     )
   );
 };
-
+var Titedu = function Titedu() {
+  return React.createElement(
+    "div",
+    { className: "row tit-education" },
+    React.createElement(
+      "div",
+      { className: "col d-flex justify-content-center align-items-center" },
+      React.createElement(
+        "h3",
+        { className: "d-flex align-items-center" },
+        "Formaci\xF3n Academica"
+      )
+    )
+  );
+};
 var Index = function Index() {
   return React.createElement(
     "div",
     { className: "container-fluid p-0" },
     React.createElement(Header, null),
-    React.createElement(Bio, null)
+    React.createElement(Bio, null),
+    React.createElement(Titedu, null)
   );
 };
 
