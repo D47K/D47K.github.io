@@ -85,6 +85,7 @@ var Header = function Header() {
     )
   );
 };
+
 var Bio = function Bio() {
   return React.createElement(
     "div",
@@ -94,16 +95,16 @@ var Bio = function Bio() {
       { className: "col" },
       React.createElement(
         "div",
-        { className: "row p-3 d-flex justify-content-center" },
+        { className: "row p-3 mt-3 d-flex justify-content-center" },
         React.createElement(
           "p",
-          { className: "bio-text " },
+          { className: "bio-text" },
           "Hola, mi nombre es Andres Hilario Vidal soy un desarrollador",
           " ",
           React.createElement(
             "strong",
             null,
-            "Full Stack"
+            "Full Stack Semi Senior"
           ),
           " Web, aplicaciones moviles y aplicaciones de escritorio."
         )
